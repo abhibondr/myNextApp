@@ -1,0 +1,35 @@
+.container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product {
+  padding: 0.8rem;
+  margin: 1rem;
+  mix-blend-mode: hard-light;
+  border: 1px solid black;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.productImage {
+  border: 3px solid rebeccapurple;
+  border-radius: 1rem;
+}
+
+.category {
+  color: #fff;
+}
+
+.price {
+  display: flex;
+  float: right;
+  color: red;
+}
+
+.Logout {
+  color: black;
+}

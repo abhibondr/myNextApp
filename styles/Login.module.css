@@ -1,0 +1,43 @@
+.wrapper {
+  width: 700px;
+  height: 600px;
+  margin: auto;
+}
+
+.formContent {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 5rem;
+}
+
+.InputFields {
+  cursor: pointer;
+  color: black;
+  border: none;
+  appearance: none;
+  border-radius: 10px;
+  margin: 15px;
+  padding: 10px;
+  background-color: white;
+  outline: 3px solid #2c0076;
+  outline-offset: -5px;
+  transition: 0.3s;
+}
+
+.InputFields:hover {
+  outline-offset: 5px;
+}
+
+.active {
+  color: #ea9daa;
+  text-transform: uppercase;
+  text-shadow: 2px 5px 5px red;
+}
+
+.signUPLInk {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
