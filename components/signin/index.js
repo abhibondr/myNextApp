@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Styles from "../../styles/Login.module.css";
-import Button from "../../styles/Button.module.css";
 import { useState } from "react";
 import { useRouter } from "next/router";
+import { Button } from "@mui/material";
 
 export default function SignIn() {
   const router = useRouter();
@@ -61,9 +61,9 @@ export default function SignIn() {
               />
             </div>
             <div>
-              <button type="submit" className={Button.btn}>
+              <Button type="submit" variant="contained" sx={{ m: 3 }}>
                 Submit
-              </button>
+              </Button>
             </div>
             <div>
               <a className={Styles.signUPLInk} href="/signup">

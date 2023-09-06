@@ -21,23 +21,22 @@
   padding: 10px;
   background-color: white;
   outline: 3px solid #2c0076;
-  outline-offset: -5px;
+  /* outline-offset: -5px; */
   transition: 0.3s;
 }
 
-.InputFields:hover {
+/* .InputFields:hover {
   outline-offset: 5px;
-}
+} */
 
 .active {
-  color: #ea9daa;
+  color: #6b04fd;
   text-transform: uppercase;
-  text-shadow: 2px 5px 5px red;
 }
 
 .signUPLInk {
   text-decoration: none;
   color: black;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
 }
