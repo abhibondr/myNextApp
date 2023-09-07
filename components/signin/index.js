@@ -3,6 +3,7 @@ import Styles from "../../styles/Login.module.css";
 import { useState } from "react";
 import { useRouter } from "next/router";
 import { Button } from "@mui/material";
+import Link from "next/link";
 
 export default function SignIn() {
   const router = useRouter();
@@ -66,9 +67,9 @@ export default function SignIn() {
               </Button>
             </div>
             <div>
-              <a className={Styles.signUPLInk} href="/signup">
+              <Link className={Styles.signUPLInk} href="/signup">
                 Dont have an account SIGNUP 👇🏻
-              </a>
+              </Link>
             </div>
           </form>
         </div>

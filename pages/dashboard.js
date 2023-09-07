@@ -29,6 +29,7 @@ const DashBoard = (props) => {
                 src={user.image}
                 width={250}
                 height={200}
+                alt="product image"
               />
               <h2>{user.category}</h2>
               <h5 className={Styles.price}> ₹ {user.price}</h5>
